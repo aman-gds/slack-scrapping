@@ -1,0 +1,624 @@
+{
+    "messages": [
+        {
+            "message_text": "Donna Donahue   2:23 AM I don't know really where else to put this so I'll ask here. A long while ago I had this exercise that I did when I was working for U-Haul to show ROI for SEO.  It was a spreadsheet that I downloaded GSC data, along with average order value (brand and other outliers removed) Where it showed current keyword ranking estimated traffic, and the potential revenue keywords brought in.  In this spreadsheet you could change the positioning from say position 8, to if you moved it position 4 you could show the potential revenue growth. I think this was a forecasting tool, but I don't have access to that information anymore because the site I got it is no longer in use.  Does anyone have any resources where I could do something like this for an ecommerce site? 3 +1 11 replies Last reply 3 months ago",
+            "replies": [
+                "Matt C   3 months ago that would be great to have",
+                "Paul Baterina   3 months ago Hmm - assuming you have access to GSC and GA, you can create a vlookup table? You can get the avg CTR, excluding your brand (since you're going for unbranded) for pos 1-10 or up to 20 up to you? Then pull your AOV data and assuming your cvr as well from GA? From that, you can get your estimated traffic based on the position - with the \"avg CTR\" from the vlook up table. And based on the est traffic, you can apply the cvr to get your transactions multiply it by your AOV and bam. 1",
+                "Paul Baterina   3 months ago Presumably you do not have any historical data and you're launching an e-commerce site maybe you can do the same thing but use this type of data to get your CTR https://www.advancedwebranking.com/ctrstudy/ Along with various main keywords with search volume and give case scenarios if rank 1, 2, or 3 here's expected traffic based on CTR from advancedwebranking. advancedwebranking.com Google Organic CTR History - Advanced Web Ranking This free tool helps you track the evolution of Google click-through rates for organic listings. (389 kB) https://www.advancedwebranking.com/ctrstudy/",
+                "Donna Donahue   3 months ago Thanks all, I do have historical data",
+                "Craig Harkins   3 months ago Like what Paul suggested. In the past Ive built my own spreadsheets using CTR data from GSC and using current impressions data for the target keywords. Used to forecast traffic changes and for e-commerce added in the conversion rates for that page type as a way to get to a revenue forecast.",
+                "Paul Baterina   3 months ago I can make a spreadsheet for you! I love doing this stuff LOL. When I get back from vacation though, about to propose to my gf",
+                "Crystal Ortiz   3 months ago Im sure thats something you could make! Ive made similar spreadsheets in the past. If you need any help Im happy to talk with you about it. If you want something easy lift though, seomonitor is awesome. And affordable!",
+                "Jon Clark   3 months ago @Donna Donahue have a look at these --> two very different models (one that allows you to use a lot of historical data for estimates but is more designed for a SaaS / subscription tool and the other that uses estimated click through based on position (obvious flaws with that model but these are mostly directional). (Disclaimer* There is some placeholder data in there from a few years ago so I'm not giving any proprietary data away :) 2 files  seo-traffic-model.xlsx Excel Spreadsheet SEO-Market-Opportunity-Calculator.xlsx Excel Spreadsheet",
+                "Donna Donahue   3 months ago thank you 1",
+                "Donna Donahue   3 months ago and I tried to thread it Kyle, but it wasn't an option",
+                "Jon Clark   3 months ago I think there is a lot that could be improved on these with Google Search Console's API data but haven't put the time into it yet"
+            ]
+        },
+        {
+            "message_text": "Donna Donahue   2:23 AM Thank you in advance",
+            "replies": [
+                "There is no reply thread in this message"
+            ]
+        },
+        {
+            "message_text": "Noah   9:48 PM walmart.ca has a kind of cool Flyer page ecommerce experience.  You can click on items on the flyer and buy them right on the same page. Walmart.ca Walmart Canada Weekly Flyer | Everyday Low Prices at Walmart.ca Browse Walmart Canadas weekly flyer and shop the best deals to help you save money. Dont miss out on these amazing deals with everyday low prices online at Walmart.ca. 1 1 1 2 replies Last reply 3 months ago",
+            "replies": [
+                "Donna Donahue   3 months ago I wish my Fry's would do this, it's a pain that it only adds things to a list from the sales flyer but not add them to cart",
+                "Adam Humphreys   3 months ago CanadianTire.ca has a similar experience and I dont love it."
+            ]
+        },
+        {
+            "message_text": "Jonathan Sackheim   9:14 PM Any recs on a CRM system that's not too expensive for an eCom company client of ours that will sync well with Klaviyo? 3 replies Last reply 7 days ago",
+            "replies": [
+                "Jonathan Sackheim   3 months ago We sell HubSpot but this company could use something a little less expensive, and HubSpot is on my shit list anyway ha ha.",
+                "Adam Humphreys   3 months ago I am not a fan of Hubspot. I forget what Arsen told me he uses but its dirt cheap.",
+                "Fred Newtz   7 days ago I know this is really old, but I am interested in building out a CRM solution right now.  Curious if you found anything.  IF not I would be willing to hear out your use cases and see about implementing it for you."
+            ]
+        },
+        {
+            "message_text": "Brian   1:45 AM Anyone else find Google is testing showing their 'explore' section infinitely after providing a shortened organic SERP? e.g., ~3 organic results (not including PAA) then infinite scroll on their explore results? Not sure if this is the best channel for this, but could be an eComm focused test. screen-capture (44)-min.gif  5 replies Last reply 2 months ago",
+            "replies": [
+                "Kyle   2 months ago Not just ecomm focused, but yes! Some really interesting subtopics broken out and covered in that section. I just launched a site in the death space, and have been digging into see how related topics are structured. Som real gems I wouldnt have considered. 1",
+                "Brian   2 months ago Its super interesting, and i've seen it before, but not after just a few organic links - usually page 1 or 2 of results. Seems like G is really trying to test it hard.",
+                "Kyle   2 months ago All Ive seen have been after page 1, so def not so soon! 1",
+                "Brian   2 months ago @Noah what's the best channel for chatting with others about Google SERP tests?",
+                "Frank Conley   2 months ago that's pretty crazy, i've seen it in certain ecomm spaces but furniture looks brutal"
+            ]
+        },
+        {
+            "message_text": "Andy Strager   6:20 PM Alrighty, my ecomm friends -- schema time. Do many people here use category schema on category pages? I don't see it too often in the wild but feel like it is appropriate 12 replies Last reply 2 months ago",
+            "replies": [
+                "Kyle   2 months ago Are you referring to using schema.org/category on PLPs?",
+                "Andy Strager   2 months ago Yeah exactly, for any category pages accessible via the main nav. So like example.com/bikes and then use category schema to list out products on this page and then product schema on the individual product pages",
+                "Kyle   2 months ago This schema type is a property of thing, not a standalone type, so you wouldnt use it to list out products. Its actually a property of products (eg you use it in product schema to specify the product category). (edited)  1",
+                "Andy Strager   2 months ago Ah gotcha, thank you for clarifying that. Any recs for category pages?",
+                "Kyle   2 months ago Generally collectionpage or itemlist",
+                "Andy Strager   2 months ago Wonderful, thank you so much! 1",
+                "Kyle   2 months ago Pair that with webpage, etc to expand your PLP context and markup opportunities (edited) ",
+                "Boris Kuslitskiy (he/him)   2 months ago Depending on how customized the page is, you have some other options. If it's a generic filtered list of products, eh, but if the page is tightly focused, e.g., all the products by a particular brand, then you can group them together under the category.",
+                "Boris Kuslitskiy (he/him)   2 months ago So your page is not \"A list of items for sale\" but rather \"BRAND - and Brand items for sale.\"",
+                "Dave Ojeda   2 months ago @Andy Strager Category pages (whether for Product or Service) have three primary options when expressing with Schema Markup: https://schema.org/OfferCatalog (most common for Product) https://schema.org/ItemList (most common for Service) https://schema.org/CollectionPage (Catch all for most other things) Here is an excellent video by Martha Van Berkel (Schema Master x100) breaking dow the choices. https://youtu.be/ci1TO5ieqyQ The key determining factor is what are the entities you are trying to represent? CollectionPage is the less specific in its intent because you need to leverage ItemList or OfferCatalog via property type MainEntity  to describe the items on the list.  I use this very rarely because better options are available. To the question of a tightly focused list page you can use property type additionalType to further describe this list page with an external vocabulary definition from Wikidata or Wikipedia. I recommend Wikidata most times because it is language agnostic. Hope that helps. Screen Shot 2023-08-08 at 11.52.57 AM.png  schema.org OfferCatalog - Schema.org Type Schema.org Type: OfferCatalog - An OfferCatalog is an ItemList that contains related Offers and/or further OfferCatalogs that are offeredBy the same provider. schema.org ItemList - Schema.org Type Schema.org Type: ItemList - A list of items of any sort&#x2014;for example, Top 10 Movies About Weathermen, or Top 100 Party Songs. Not to be confused with HTML lists, which are often used only for formatting. schema.org CollectionPage - Schema.org Type Schema.org Type: CollectionPage - Web page type: Collection page. YouTube | Schema App How to Markup a List of Products or Services: Schema App Tutorial 6",
+                "Renee Girard   2 months ago it's so helpful to see some legit ways to handle e-commerce category structured data.  we've seen SEO tools going against Google's rules, telling brands to add product markup to category pages. nice to find options that actually make sense!  @Brian 1",
+                "Dave Ojeda   2 months ago @Renee Girard Feel free to reach out with any questions on the thread or via DM."
+            ]
+        },
+        {
+            "message_text": "Rajesh Shrestha   7:02 PM Hi everyone! I'm currently working on SEO for an e-commerce site, and we're ranking at 2nd/3rd position. However, we're struggling to surpass the 1st competitor, who has a larger number of products displayed on their product category page. I'm wondering if the number of products displayed on a product category page is a ranking factor? Any insights or advice would be appreciated. Thanks! 2 replies Last reply 2 months ago",
+            "replies": [
+                "Justin Briggs   2 months ago The number itself, likely not, but it can appear on SERPs. If were talking about the number of products per pagination page (24, 30, 48, 60, etc.), perhaps a little by virtue of the content length, but there would be diminishing returns and trade-offs. If were talking about the total product count, it can at least influence or be indicative of other factors that certainly influence rankings: Larger footprint of content (URLs) about the topic More inlinks from child products, subcat, facets More opportunities for backlinks with category-related value More coverage across a breadth of related keywords Opportunity for more related facets and brands mentioned on the page More likely to mention the top entities for the category Potentially better user experience (more options) Potentially stronger brand association with the product category (more brand+category queries or users more likely to click the brand) Less likely to generate thin/empty/duplicate pages on subcats/facets The company may be more likely to invest in editorial content production and promotion supporting the product category, driving more authority. 1",
+                "Nam Le   2 months ago This is one of the easiest thing to test. Expand the displayed products on half of your category pages and see if that improves your traffic"
+            ]
+        },
+        {
+            "message_text": "Paul Baterina   10:23 PM Hi all, I asked another slack group but didn't get much of an open discussion, and now I want to hear it from you guys (if anyone wants to chime in). This e-commerce site lyst.com - has been dominating in the SERPS (organically). All their products are affiliate links, or majority of them. What do you think is making them rank so well? The way I see it, they have a team of engineers, they target long tail keywords based on the product descriptions and they mass produce. I guess what I'd like to know is what makes this site \"unique\" that it deserves to be ranked well in Google? Given that the customer experience will be different depending on the product they click on, as it'll redirect them to the actual brand that sells that product. Is it also how the site's been designed? And as well as their branding (if any)? I'm also interested if since these products are all affiliate (and they don't have them in inventory), are they still able to capitalize in product schema? Thoughts? Thanks! 16 replies Last reply 2 months ago",
+            "replies": [
+                "Katelyn Geary   2 months ago hey @Paul Baterina ! if lyst is dominating, they presumably are receiving a ton of clicks. could be that google sees all that traffic as a sign of authority.",
+                "Paul Baterina   2 months ago Hi @Katelyn Geary could be. Check them out historically. Screenshot 2023-08-08 at 10.48.22 AM.png  ",
+                "Paul Baterina   2 months ago I guess it still boggles my mind, being in e-commerce for 10 years (products with inventory), and to see a somewhat of a direct competitor killing it with all affiliate links.",
+                "Katelyn Geary   2 months ago what are some of the longtail keywords theyre ranking for?",
+                "Katelyn Geary   2 months ago also, apologies if youve already come across this info, but i found this in article about lysts affiliate program: The creation of CSS, the result of the EU ruling that Google had a monopoly on the shopping ads space, marked a shift in our offerings and affiliate activity. When this space opened to comparison shopping sites only, Lyst began participating with willing partners immediately, and we have seen great success. During 2018, we actively encouraged our EU partners to give CSS through Lyst a try, and this became the main source of growth for participating partners. Because of the massive success of CSS in the EU, we began exploring the same opportunity in the US in 2019.",
+                "Paul Baterina   2 months ago DIdn't see that! Interesting.",
+                "Paul Baterina   2 months ago Just some examples of word count with 5+. Screenshot 2023-08-08 at 11.08.54 AM.png  ",
+                "Paul Baterina   2 months ago It seems to me, they positioned themselves very well with other brands/companies such as us (revolve.com), to capitalize their growth. With that amongst other things such as branding etc, their SEO just grew (with basic onpage stuff)",
+                "Katelyn Geary   2 months ago it looks like they have pretty high standards for companies that want to partner with them. established brands, lyst says they are not a place for discovery",
+                "Paul Baterina   2 months ago Time to make a competitive site that's a place for discovery",
+                "Katelyn Geary   2 months ago discover small brands with a cause--im a customer already!",
+                "Paul Baterina   2 months ago !!!!!! That's EXACTLY it. Showcase only brands that have a cause/give back. Let's go!!",
+                "Nam Le   2 months ago Seems like they have dedicated category page for each of those long tail keywords (women nike airmax 270). Anything stopping Revolve from doing that?",
+                "Paul Baterina   2 months ago @Nam Le   in the process ;).",
+                "Joshua Poole   2 months ago Lyst are titans in this space - Farfetch and Lyst go neck and neck. Farfetch was initially affilate then evolved into marketplace. Lyst you could say is almost a hybrid affilate / marketplace set up. Obvsiouly much more affilate but they have elements of a marketplace. I'd say they want to eventually become like farfetch. Lyst have dedicated product pages with 100,000s if not millions of products with extensive long tail PLPs. If you want to search for designer fashion, Farfetch or Lyst is where you go from a user perspective and everyone in the designer space knows this. (edited) ",
+                "Paul Baterina   2 months ago Yeah Im very well familiar in the fashion space (Im the head SEO of REVOLVE) . I just want to know why lyst does well in SEO given theyre all or most affiliate links - nothing unique imo. Opposed to other fashion sites or e-commerce sites that give this whole experience for the user. Think of Nordstrom where their PDPs have their stylist team have a video of a product, etc."
+            ]
+        },
+        {
+            "message_text": "Boris Kuslitskiy (he/him)   1:39 AM Google confirmed that FAQ rich snippets are, for most sites, going away. The exclusion listed is for \"well-known, authoritative government and health websites.\" 2 3 replies Last reply 2 months ago",
+            "replies": [
+                "Boris Kuslitskiy (he/him)   2 months ago https://developers.google.com/search/blog/2023/08/howto-faq-changes Google for Developers Changes to HowTo and FAQ rich results  |  Google Search Central Blog  |  Google for Developers (66 kB) https://developers.google.com/search/blog/2023/08/howto-faq-changes",
+                "Boris Kuslitskiy (he/him)   2 months ago Side note, haha: Screenshot_20230808_164112_Google.jpg  ",
+                "Tory Gray   2 months ago Mkay but Id add: we have a govt client thats highly trusted and well known and theyve been losing video, FAQ and how to markup and also Featured Snippets since March. (They didnt get replaced, those features went away on major queries for everyone.) Im glad its official now. But I expect this to be somewhat painful for everyone! 3"
+            ]
+        },
+        {
+            "message_text": "Boris Kuslitskiy (he/him)   10:11 PM How often are you SEOs dragged into CRO activities when working with ecommerce platforms? 2 +3 60 replies Last reply 2 months ago",
+            "replies": [
+                "Jess Joyce   2 months ago dragged? They work together 2",
+                "Brian   2 months ago I wish I was",
+                "Paul Baterina   2 months ago All day err day! 1",
+                "Boris Kuslitskiy (he/him)   2 months ago Follow up question, do those of you saying yes work in-house in an understaffed team?",
+                "Jess Joyce   2 months ago Not currently @Boris Kuslitskiy (he/him) - understand that perspective and its a diff realm for sure",
+                "Paul Baterina   2 months ago I work in-house  with a team of 10+ UX designers, 10+ Business intelligence members, and 10+ engineers lol",
+                "Paul Baterina   2 months ago And me, the one man SEO team. WOOT WOOT!",
+                "Paul Baterina   2 months ago But if it's for specific projects, typically 2-3 front end, 1 back end, and 1-2 BI analysts.",
+                "Boris Kuslitskiy (he/him)   2 months ago Wow, that's very lopsided. Are you primarily tech or do you do keywords/share of voice/link building/etc?",
+                "Paul Baterina   2 months ago We do 0 link building, as our PR team handles it. They're very sensitive on who they want to build relationships with (fashion industry). I work for revolve.com and fwrd.com (both under one umbrella)",
+                "Donna Donahue   2 months ago I would agree they work together but they are two different skill sets",
+                "Paul Baterina   2 months ago So for my case, 1,200 employees I mainly focus on onpage, technical, and working with various teams to improve user experience.",
+                "Paul Baterina   2 months ago user experience bucket into CRO, whether that's improving bounce rate, time on page, pushing better recommended products, etc.",
+                "Boris Kuslitskiy (he/him)   2 months ago I can see a lot of overlap between CRO and on page optimization. Both would do A/B test, both need some HTML knowledge, both research on what users are asking, and so on. 1",
+                "Paul Baterina   2 months ago Overlap and also ongoing technical issues lol. Something will always break unfortunately, especially when it's all done in-house. 1",
+                "Paul Baterina   2 months ago When I first started 10 years ago, I had 0 involvement in CRO activities, it only happened probably 3 years ago where I need to know every CRO project incase anything could possibly break, or I have to give them a heads up of what they can do, or can't do etc .",
+                "Brian   2 months ago @Paul Baterina do you have any say in how long these tests may run? I see that being overlooked by testing teams that don't have SEO knowledge - letting something sit far too long or forgetting about a test, which then impacts SEO in more ways than conversion",
+                "Paul Baterina   2 months ago @Brian I do!",
+                "Adam Humphreys   2 months ago I care about conversions more than anything. That said, we have to walk this line carefully and eloquently complimenting devs in anything they did well for anything we need lol. 1"
+            ]
+        },
+        {
+            "message_text": "Joshua Poole   6:12 PM We are planning out a new information architecture for a replatforming project - focusing on subfoldering the clients product categories. What are ways do people go about this? E.g what templates do people use in excel to map it all out? We have our own ways which I can share but want to see what other SEOs are doing. The site has over 4000 product categories  (edited)  2",
+            "replies": [
+                "There is no reply thread in this message"
+            ]
+        },
+        {
+            "message_text": "Paul Baterina   9:38 PM What's everyone's thoughts on large e-commerce sites with a ton of internal links at the bottom? I know these large e-commerce sites have used companies like bloomreach in particular, etc. I'm very curious how bloomreach, etc. go about with their internal linking strategy? Sometimes I think, whatever is considered \"best practices\" doesn't matter or goes out the door once you have a big freaking site. Meaning, you can literally have a shit ton of links with the same exact anchors. Or, maybe I was wrong all along and this whole \"proper distribution of internal links with mixed anchor texts\" never mattered. Look at the example that I have from neimanmarcus. 4 anchors with \"dresses\" lol. All going to different sub-cats of dresses though. I had a call with another vendor (smaller than bloomreach), most with engineering backgrounds, and asked for their high level approach on how they internal link. They said \"we just use the same anchor text keyword, and internally link everywhere.\" All in all.. Have you seen an uplift in your overall organic traffic (assuming you did this on your e-commerce site)? How were you able to show proof that the internal links at the bottom improved in rankings and traffic, given that there are a million other factors in SEO? Even if you had a test vs control group, what pages are you presenting to show the impact? The pages that's receiving the internal link? Or the pages with the internal link going to the targeted page? Or both? Lol. General thoughts? Thanks! image.png  +1 18 replies Last reply 1 month ago",
+            "replies": [
+                "neil   2 months ago following for answers too. i've a 15k product boring e-commerce site with similar issues most of the products never get indexed again after they're added. would love to know some quick fixes to get them indexed and ranking better. certainly will add the footers now and some content pages to support internal links.",
+                "Paul Baterina   2 months ago @neil with the 15k products, do you have a ton of sub-category and sub-sub (super long tail) pages created? I figured, with a better internal linking approach vs linking anywhere, that more pages would get indexed / crawled. Better internal linking approach as in, identifying pages that are not getting crawled as often, and having an internal link from a page that does, as well as the page being relevant to each other etc.",
+                "Katelyn Geary   2 months ago @neil @Paul Baterina do you have separate sitemaps for your products?",
+                "Paul Baterina   2 months ago @Katelyn Geary   yup!",
+                "Stephanie Briggs   2 months ago We have had success with a milder (fewer links per page, more integrated) version of that link strategy (though have not used bloomreach). The goal is improving inlinks to high demand categories that are buried deep in the site's architecture. (We can rely on crawl data plus analytics to show the correlation.)  I don't worry about diverse anchor text. Just name the category whatever makes sense.",
+                "Paul Baterina   2 months ago @Stephanie Briggs Thanks for the insights! Crawl data + analytics. Noted.  With the links that you've added, did you add any pre-text/post-text (sentences) to add more meaning and relevance to the internal link? Or it was a list of anchor text links like the example I gave?",
+                "Stephanie Briggs   2 months ago Just related categories like what you listed, but they would have had more descriptive anchor text, like \"Party Dresses - Black Dresses - Summer Dresses - Maxi Dresses - Free People Dresses\" etc.",
+                "Stephanie Briggs   2 months ago If you use botify, that's my favorite / the easiest place to get the data.",
+                "Paul Baterina   2 months ago @Stephanie Briggs so funny, I was literally telling @Emily B. that I looked into Botify and that was the one company I would've considered on the enterprise level. Thanks again Stephanie. Great insights! 2",
+                "neil   2 months ago @Katelyn Geary yeah i think it needs more surrounding content like top of category pages, internal links out from them. 100% google is not crawling these URLs or indexing them all in a complete fashion. at the moment the only differentiating factor is the product descriptions are unique to other sellers of the same stuff. as a test; I have one URL with a totally unique nonsense sentence in it. GSC says it is indexed, the HTML preview in GSC has the sentence in it, But if you search for the sentence in quotes it is not returned.",
+                "Justin Briggs   2 months ago In the last one I worked on (with @Stephanie Briggs ), the company attributed a $7.5M annual revenue lift to this feature (~$300M organic search channel). This was a combination of an organic visit lift to the target URLs and an increase in AOV (of users who engaged with the feature). I felt the quality of the recommendations was key -  trying to balance elevating pages with discovery gaps and assisting the user with discovery while navigating. What was hard were all the quality rules to avoid awkward, irrelevant, and redundant recommendations (i.e., \"Dresses Dresses Dresses Dresses\" in your screenshot). Its cumbersome to audit that at scale to tune the algorithm. I dont mean to plug my post, but I shared some code and thoughts on related search a while back. The code is a stripped-down version of what I wrote for the above-mentioned project. At the end of the post, I list some additional things I did to refine the results. It was built on the Botify API. (edited) ",
+                "Paul Baterina   2 months ago The GREAT @Justin Briggs ?! I have read your NLP  (https://www.briggsby.com/on-page-seo-for-nlp) thousands of times ,especially since Koray Tugberk references it a lot Lol. Thanks Justin! I'll check this out! Briggsby On-page SEO for Natural Language Processing (NLP) - Briggsby An overview of on-page SEO for natural language processing, including an introduction to NLP and 10 tips on how to write for NLP and Featured Snippets. Written by Justin Est. reading time 18 minutes Jul 17th, 2018 (48 kB) https://www.briggsby.com/on-page-seo-for-nlp",
+                "Justin Briggs   2 months ago haha, well, thank you! If you end up doing the related links and want someone to bounce off of, happy to chat/share my experiences.",
+                "Paul Baterina   2 months ago @Justin Briggs 100%. I'll DM you!!",
+                "Paul Baterina   2 months ago @Justin Briggs   I will be implementing that while in creation of long tail Plps. Ill message you sometime this week or next!",
+                "Renee Girard   2 months ago IMO links are underrated and still worth it for large eCom sites, even if you don't think a user will click on them. our templated bottom feeder internal links prioritize pages that aren't in the nav which have helped with crawling of those linked pages (per log files) and resulted in new SERP sitelinks. sitelinks were harder to prove beyond looking at impressions and screenshotting the SERP.",
+                "Paul Baterina   2 months ago @Renee Girard Thanks! You guys did it in-house or vendor? And I love your company",
+                "Renee Girard   1 month ago @Paul Baterina we did it all in-house and thank you!!"
+            ]
+        },
+        {
+            "message_text": "This message was deleted. 6 replies Last reply 2 months ago",
+            "replies": [
+                "Paul Baterina   2 months ago Hi Emily! Hope you're having a great week. I have used BrightEdge but this was back in 2013. I'm sure a lot has changed. During the time we used it, we weren't fans just because it didn't provide much value. We felt we could track our own keywords, and we had tools (a lot cheaper) to further optimize our pages. Conductor.... I was excited in using them back in 2019. We brought them onboard, only to realize that their platform didn't provide anything that I was looking for. In addition, we had weekly or bi weekly calls that I didn't find any value (technical stuff that I did not already know). I'm curious though since they got bought out or merged with searchmetrics on how they are now?",
+                "Kyle   2 months ago A great post for the #tools channel!",
+                "Paul Baterina   2 months ago I just feel now - GSC (and now with bigquery) excel, GA, Screaming Frog / Sitebulb etc. is all you really need lol.",
+                "Emily B.   2 months ago Thanks @Paul Baterina for the help. @Kyle I missed that channel but will move this over there, thanks for the help for the noob. 1",
+                "Paul Baterina   2 months ago @Emily B. feel free to reach out in DM if you want me to go a bit more in-depth. But again, I'm just one person with an opinion",
+                "Emily B.   2 months ago @Paul Baterina I will!"
+            ]
+        },
+        {
+            "message_text": "Emily Dougherty (Yost)   6:32 PM Hi all - quick question about ecommerce category pages... I am working with a client who tags individual product titles as h2s on category pages. These category pages list over 400 products in some cases. So, 400 h2s. I've never seen this before on an ecomm site. I am not sure if this is a new issue or if it existed before the CMS migration.They recently migrated to a new CMS (before my involvement), which resulted in rank/traffic loss. Thoughts? 56 replies Last reply 2 months ago",
+            "replies": [
+                "Alex Wilson   2 months ago yeah dont do that.",
+                "Michael Ferrari   2 months ago Are all the H2s part of the CMS? IOWs, did the client tag them that way for any particular reason during the migration process?",
+                "Emily Dougherty (Yost)   2 months ago I don't even know how this would have happened",
+                "Emily Dougherty (Yost)   2 months ago I was recently brought in and am doing a tech audit and stumbled across it. My gut tells me they don't even know about it (edited) ",
+                "Alex Wilson   2 months ago 90% of the time when you have weird H tags its because a developer is using them to style text",
+                "Alex Wilson   2 months ago You have to teach them, heading tags are for headings, not for styling.",
+                "Emily Dougherty (Yost)   2 months ago yeah thats what I thought. Headers being tied to text size/style is the bane of my existence",
+                "Michael Ferrari   2 months ago What Alex said! Ive run into this a few times and its either because the CMS did it by default or the dev was lazy/didnt know better and used them for styling. Either way, its definitely worth calling out to the client",
+                "Alex Wilson   2 months ago the good news, its is should be a quick code change",
+                "Emily Dougherty (Yost)   2 months ago Awesome. I am presenting my findings to them today and needed the sanity check that this is def a no-no",
+                "Alex Wilson   2 months ago Always good to get a sanity check",
+                "Emily Dougherty (Yost)   2 months ago This dev also told the client they couldn't edit title tags on the page-level",
+                "Alex Wilson   2 months ago say what (1 MB) https://media0.giphy.com/media/12luQDyqvum5l6/giphy.gif?cid=6104955eiwowm3jjix8220shlc97mfaiepgk9pcg5km8tmgg&ep=v1_gifs_translate&rid=giphy.gif&ct=g Posted using /giphy | GIF by Anchorman Movie 2 1",
+                "Michael Ferrari   2 months ago Are they working with an inhouse dev or a contractor?",
+                "Emily Dougherty (Yost)   2 months ago I KNOW. I was shocked. Its now a WP site and the dev set up a title tag auto-fill. They are all like 90+ characters",
+                "Alex Wilson   2 months ago what is the CMS",
+                "Emily Dougherty (Yost)   2 months ago i believe it was a contractor",
+                "Alex Wilson   2 months ago get a new dev",
+                "Alex Wilson   2 months ago i can recommend several",
+                "Emily Dougherty (Yost)   2 months ago yeah they fired that dev. now working with a new agency and they seem good.",
+                "Michael Ferrari   2 months ago Yeah, thats definitely worth calling out. Just be careful--devs can be super defensive and you want to make sure this doesnt turn into a You vs. Dev battle for your client to watch",
+                "Emily Dougherty (Yost)   2 months ago Thankfully the dev thats responsible won't be on the call.",
+                "Emily Dougherty (Yost)   2 months ago what would you say is the #1 reason for not doing this?  I know the client will ask and Ive never seen this before",
+                "Alex Wilson   2 months ago why a dev would do that?",
+                "Emily Dougherty (Yost)   2 months ago No, why its bad for SEO/UX",
+                "Alex Wilson   2 months ago so heading tags are for content organization. not  for presentation. so the page appears to have 400 sections, with no content in each section.",
+                "Emily Dougherty (Yost)   2 months ago right, right.",
+                "Emily Dougherty (Yost)   2 months ago image.png  1"
+            ]
+        },
+        {
+            "message_text": "Donnie Strompf   7:09 PM Hi everyone, I have a client with a product page that performs in 4th place nationally for one of heir best terms. This product page competes with a collection page that does not perform as good. Would it be advisable to redirect the product page to the collection page after making the collection page a better UX? 7 replies Last reply 2 months ago",
+            "replies": [
+                "Andy Strager   2 months ago I would not do that. Your efforts are better served by optimizing the category page to send stronger signals to Google. I would: review the title tag ensure there is introductory content on the category page Review comp to see if there is anything you are missing out on. potentially add FAQs to increase keyword-rich content. Review internal linking to make sure you have sufficient internal links going to this page (don't forget to review anchor text as well)",
+                "Donnie Strompf   2 months ago @Andy Strager my concern is the collection page and product page are competing with each other for the same term",
+                "Donnie Strompf   2 months ago The product page gives users one product to choose from while the collection page has more options. I do appreciate your response, both pages have a lot of useful content as well as supporting content with tutorials on using the product",
+                "Andy Strager   2 months ago Yup! I have been there before. But if you redirect the product page then you will miss out on all of the exact match queries for that product. Those will be the high-intent/buy-now searches. At the end of the day, Google will choose what it wants and all you can do is send the strongest signals possible to have them choose the desired page. Redirecting transactional pages will most likely lead to revenue loss for that product because the \"I want this specific product\" searches won't return the product 1",
+                "Donnie Strompf   2 months ago Perhaps giving users more options on the product page will suffice here (edited) ",
+                "Andy Strager   2 months ago I would put the energy into the category page. Adding more content on the product page will most likely send more signals to rank that instead. Maybe just an \"other products you may like\" could be nice, but I would be hesitant to do anything further.",
+                "James Wirth   2 months ago I don't think we have enough info yet to give you solid advice @Donnie Strompf . If you'd like to post the pages, I'm happy to run a link gap analysis for you, to see if we can uncover any external backlink needs either between the pages or between each page and the competition. I'd also be curious about on-page discrepancies between the two pages. Google is favoring the PDP over the PLP/category page for a reason, either inadvertently or intentionally - would be interesting to try to find out why..."
+            ]
+        },
+        {
+            "message_text": "Alex Duncan   5:26 AM Hey all, would love to hear the many ways I can see about addressing this issue. All feedback is welcome & appreciated! Been looking at GSC & SERP trackers and noticed that my clients product pages & blogs compete for a high value keyword which predominantly ranks for a product category result in Australia. So I've summed up to potential keyword cannibalisation. All these pages also have internal links to the product category either via html breadcrumb links, or content inlinks which makes it semantically interesting it's happening. As such, I'm thinking of this process to help Google priorities the category above all for this particular keyword. Perhaps considering on replicating this process with other product categories which may have the same issue. canonicalise the 19 products which have impressions/clicks on the keyword to said product-category OR address further internal linking elements to said category reivew the 17 blogs shown in GSC & make contingency plan to either consolidate the articles OR 310 some irrelevant articles to product category refresh product category content with some of the content on product pages custom search via screaming frog for internal link opportunities on said keyword. My thought process behind doing this is I don't want to subtract from user experience when users venture to the site looking for this particular product type. Just want to ensure users enter the website the intended way that Google wants. 1 9 replies Last reply 2 months ago",
+            "replies": [
+                "Noah   2 months ago What content types are in the serp? This is a huge clue as to what page type will be easier to rank.",
+                "Alex Duncan   2 months ago So 8 SERP results total: 1 brand (12.5%) 2 product (25%) 5 categories (62.5%)",
+                "Anurag Singhal   2 months ago Most often this is a sign that a) you likely have the authority signals working fine b) your on page optimization or possibly technical seo for product pages may need work to optimize for the search intent or you if your product pages are new, allow them time to overtake the blog pages. Sometimes this kind of an issue resolves on its own after a core update (Google confessed), so over optimizing is a risk. Id start by asking chatGPT to score the title and H1 for each page type for the target keyword and adjust if the score is too close, by making them semantically distant and targeted to slightly different intents. Ex. Target blogs to long tail terms like how, why type questions and awareness stage terms. And product pages for transactional terms. Internal linking from and to broader category pages + anchor text aligning to target keyword can help a machine separate the purpose better. But again, avoid impatience as this can self resolve.",
+                "Alex Duncan   2 months ago Thanks for your thoughts @Anurag Singhal agreed on being patient and not being gung-ho. Perhaps some background, they freshly started with me since recently departing from another agency so 1 month of discovery & onboarding so far. This is has been happening for a while now. I back tracked when they started dipping for this keyword with the algo updates. Here are the most stand out ones with the timeline with the graph. red indicates algo & drop. December 14th link spam update April 12th 2023 Reviews update Just trying to eliminate as many possibilities as possible with the limited resources I have & pull all thoughts into 1 concise action plan. Also not wanting to over optimise as you've said. This also leans me to consider repurposing some content on products and serving it on the category instead. (edited)  image.png  ",
+                "Anurag Singhal   2 months ago Seems you are already self-recovered once, so Id go all in to try and recover given the more firm drop seen after April update. Given the position trend above, to me this doesnt seem as much about blogs vs product pages but some issue with product pages that needs resolving. I wouldnt recommend trying various things until the root cause is known, which is likely directly related to the reviews core update but can also be so many other things. If no clues, Id experiment by changes related to reviews such as any bogus reviews schema markups that arent a true signal for helping users. Given these are just a few urls, internal links might not make a lot of difference at current rankings.",
+                "Patrick Rice   2 months ago Does the category page have proper on-page optimization and content?",
+                "Alex Duncan   2 months ago The category page has the following: top and bottom content (H1, H2, H3) Products, price & buy now buttons product images how to install videos related articles collection page schema breadcrumbs (both html & schema) related searches (inlinks to other categories) 1",
+                "Katelyn Geary   2 months ago I ran into the same problem--our blog was outranking our category page. Our solve was to de-optimize some of the blog titles and sort of re-optimize the category page title tag (stuck the primary kw right at the front of the tt instead of three words deep<also did this for UX tho because the primary kw is so unique and grabbing). We redirected the frivolous blogs to the category page (as you had mentioned) and that ended up being a big success + rev driver. We also relied on multi-channel support: we provided the category URL to our email and social teams in an attempt to drive up traffic. The blog and category page swapped positions in just a couple of days. 1",
+                "Patrick Rice   2 months ago I see blogs ranking better than categories a lot.  I've seen SEO's completely switch from trying to rank their categories to ranking blog landing pages that are just sales pages which direct traffic to products and categories."
+            ]
+        },
+        {
+            "message_text": "Robert Spinrad   9:02 PM A client switched from pagination to infinite scroll without telling us It was in the works for a while and wasn't a total shock, but we never had that final chat. Anyway... so far, so good. It's been about 8 days since the change and things seem normal, if not a bit better. It could be a coincidence, but engagement rate & time are both up, and revenue is strong. I've already conducted a few checks on my end and I'm wondering what any of you suggest I do. Thanks! 13 replies Last reply 2 months ago",
+            "replies": [
+                "Mark Howser   2 months ago Scroll to the very bottom, take some links and text, and use the Chrome Extension 'View Rendered Source' to verify that everything is crawlable / indexable. (edited) ",
+                "Mark Howser   2 months ago Maybe run a crawl with Screaming Frog or Sitebulb and set it to render JS to analyze that way",
+                "Martin atkovi   2 months ago You should check by time traffic on products pages which aren't on first page (doesn't get links from category). Products on the second and next page might now get less \"juice\" and perform worse. But it depends on the topic and whether or not these products even had traffic today.",
+                "Robert Spinrad   2 months ago Thank you both! I should also mention that every product loads off the bat. They didn't set it up to show 20, 30, or x amount until you hit the bottom of the page. So essentially, every category/product loads when the approapriate page gets clicked on",
+                "Mark Howser   2 months ago Do you have before and after snapshots in Google PageSpeed Insights? I'd imagine this impacts page speed having the entire infinite scroll loaded in one go. Maybe look into lazy loading the images. (edited) ",
+                "Robert Spinrad   2 months ago Running a as we speak Lazy Load already active",
+                "Robert Spinrad   2 months ago Some accessibility issues work through, but pretty good I'd say image.png  ",
+                "Mark Howser   2 months ago Oh you don't need to do anything else then. You're in good shape!",
+                "Robert Spinrad   2 months ago A bit slower on mobile but nothing we can't sort through. Much appreciated!",
+                "Martin atkovi   2 months ago If products are loaded all on first page without scrolling it's still a good solution, I'd say. (Maybe watch the speed - server replies in categories where there are a lot of products)",
+                "Robert Spinrad   2 months ago Thanks, Martin!",
+                "Donnie Strompf   2 months ago How long ago did they make the change? Did Google recrawl the site yet? Also for all the pagination pages, did you 301 redirect them to the infinitely scrolling feed? (edited) ",
+                "Robert Spinrad   2 months ago They made the change on 8/1, so about two weeks. Crawling/indexing look good. Regarding the redirects... no Had the client waited for us to have one final chat, we would've checked that box. So that's on my list of things to take care of. That said, the paginated pages just take you to the infinite scroll version of that category by default"
+            ]
+        },
+        {
+            "message_text": "Patrick Rice   4:07 AM Are more products on the first page of a category page better?  Competitor's have considerably higher word-count and keywords in headers since they have more product rows per page.  Do you recommend adding additional product rows per page to increase word-count + keywords? (edited)  9 replies Last reply 2 months ago",
+            "replies": [
+                "Robert Spinrad   2 months ago I don't think there's a concrete answer for this, but, adding additional products that convert well and keep customers engaged is probably a good idea. Something else to consider is adding header copy above the products that's relevant to the products below and the overall category",
+                "Patrick Rice   2 months ago Yes!  I think it's necessary since competitor's have higher word-count by 1883!  We are a manufacturer against larger retailers, so it's a battle.  Not allowed to add content above the fold, so all content right now is being added below products: (H1) Category Name (H2's) Product Names (H2) Header for FAQ (H3) Frequently Asked Questions (H3) Additional Content Thanks! Patrick",
+                "Robert Spinrad   2 months ago Fair enough! Anytime.",
+                "Patrick Rice   2 months ago But what do I know!  Haha still experimenting with everything.  Any additional advice is welcomed.  Thanks!",
+                "Robert Spinrad   2 months ago When it comes to SEO... what does anyone really know? Lol",
+                "Robert Spinrad   2 months ago Word-count is tricky. That said, if the changes you're making improve user experience, it's worth a shot. Are you allowed to add copy in the footer below the products?",
+                "Patrick Rice   2 months ago Right lol!  Yes, I am adding FAQ copy below the products.  They are considering whether they're willing to add additional content there, but I can probably get that agreed. 1",
+                "Patrick Rice   2 months ago What's your experience with copy below product categories?  Does it need to be highly pre-purchase info.  Should it be like a full article below the products?",
+                "Robert Spinrad   2 months ago I like to add copy below the products for internal linking purposes. The copy itself is creative and aligned with the brand, and it includes internal links to other categories."
+            ]
+        },
+        {
+            "message_text": "Adam Humphreys   8:00 AM Random question but is there a script for shopify to show people in a certain state only certain products? 11 replies Last reply 1 month ago",
+            "replies": [
+                "Mika Lepist   2 months ago You can restrict by shipping, but I don't know of any other way to do it besides editing liquid templates, and trying to rely on other factors to determine which state someone is in which is not ideal. I order stuff all the time to other states than where I'm currently shopping from. Can you explain the scenario better? Perhaps there's another way to address it.",
+                "Adam Humphreys   2 months ago Food skus limited by where they can ship because of licensing. Its bad practice to display products that cant be shipped to where people are.",
+                "Mika Lepist   2 months ago I agree. I haven't found a good solution for that but have not dug in deep. One thought is to require login first to be able to qualify based on custom code, but I hate inhibitors like that. B2C or B2B?",
+                "Mika Lepist   2 months ago Brainstorming while waiting for your reply. B2B is used to logins before pricing/availability. That would not deter me as much although I'd want to test it. B2C this happens a lot. Amazon does it, Home Depot and countless others show me things they can't ship to Hawaii. Its is a sucky experience. I don't know of an app that handles this but there may be one. If there isn't, doing something in JS to hide unavailable products based on shipping state with a very simple overlay and good messaging may be a better solution that showing irrelevant products. I'm logged in to the stores I mentioned and they are still filled with unavailable to ship products. I'd gladly take an overlay to filter it given the 2 choices.",
+                "Adam Humphreys   2 months ago B2C",
+                "Adam Humphreys   2 months ago IP routing seems to often come with issues.",
+                "Mika Lepist   2 months ago Right now I can't think of anything super creative other than a shipping state overlay with an explanation it will filter only products available for them. No login required and still fits the objective. Better than a lot of unavailable products one would spend a lot of time sifting through.",
+                "Adam Humphreys   2 months ago You would think Shopify would have a solution for this by now.",
+                "Mika Lepist   2 months ago I'd think Amazon would have one. Out of all of the ecom sites I have seen, they are the ones I'd expect to have it considering how they're so tech heavy. How complex/large is the matrix of products and no-ship states? Feel free to DM if you want, I have some liquid experience and might be able to come up with an idea but I'd need to know more details. (edited) ",
+                "Mika Lepist   2 months ago Seen this? https://apps.shopify.com/geoip-based-product-blocker",
+                "Adam Humphreys   1 month ago Ya"
+            ]
+        },
+        {
+            "message_text": "Matt C   4:27 AM what're your thoughts on how SGE will change the content approach for ecom? Seems like how-to guides are out unless you're making a video 3 replies Last reply 2 months ago",
+            "replies": [
+                "James   2 months ago Depends on the product; certain commodity items I think will be pushed into Googles e-commerce funnel which they are building to make a play against Amazon, products that have a more elaborate search journey can be surfaced with more use case oriented content; bonus points for having the products mentioned on multiple sites and via influencers all influencing the LLMs; that influencer YouTube explainer video with that compelling thumbnail may get a lot of ctr when shown within one of the SGE tiles",
+                "Mika Lepist   2 months ago Pay to play IMO, plus video influencer or your own YT which Google has incentive to direct to since it's in their ecosystem.",
+                "James   2 months ago Totally, brands winning in this area are avoiding critiques on the platform and doubling down on the campaign against the guaranted attention that will be obtained, this is an interesting variable to measure; which I think in SEO we take for granted; Search (seo/ppc) has such a high degree of implied interest in the content, though I think this has been altered by the rise of quick answer snippets (only increasing in SGE, with quicker answers literally, why read a paragsn hen you can get bolder text on your watch or eyewear) and of course the industrial focus on brand spend in pay per click advertising which may be comprising a businesss a bailout to execute on their strategic initiatives in their own strategic interest"
+            ]
+        },
+        {
+            "message_text": "Alex Duncan   11:22 AM A question for the group & may have already been asked. This may be applied to #technical-seo, but would infinite scrolling impact how readable a page is to Google? thus impact on rankings? +3 11 replies Last reply 2 months ago",
+            "replies": [
+                "Noah   2 months ago 100% if there isnt another way for GoogleBot to get to all the pages. GoogleBot doesnt,click buttons or scroll. 1 2",
+                "Alex Duncan   2 months ago Thanks Noah. Gives me some ammo to address pagination and move them to CloudFlare hosting for on-page performance. Trying to hit 2 birds with 1 stone",
+                "Chris Johnson   2 months ago I've got a personal site where only GoogleBot gets a version of the site with pagination.",
+                "Daniel Zuccon   2 months ago John Mueller (am I allowed to tag him?) has his very own demo on best practice for infinite scrolling pagination: https://scrollsample.appspot.com/items 1",
+                "Simon   2 months ago 100% because google does not interact with a page the way a normal user would. Having said that, I have seen clients who have implemented infinite scroll and not loose any traffic or rankings and I have seen others that have switched from pagination to infinite scrolling and lost out bigtime.",
+                "Dave Smart   2 months ago There's a bit in the docs too: https://developers.google.com/search/docs/crawling-indexing/javascript/lazy-loading#paginated-infinite-scroll I do think it's a good idea to add URL changes to users too, if you're making them available to google, as A, that's where users might land, and B, if I want to share that link with others, they're landing where I meant (obviously over time that might drift as new items are added or old ones removed from the list) Google for Developers Fix Lazy-Loaded Website Content | Google Search Central  |  Documentation  |  Google for Developers Lazy loading is a common website performance and UX best practice. Learn how to test and fix lazy loaded content with SEO best practices in mind. (498 kB) https://developers.google.com/search/docs/crawling-indexing/javascript/lazy-loading#paginated-infinite-scroll",
+                "Mike Blazer   2 months ago See how it's made on https://www.hotukdeals.com/ hotukdeals hotukdeals - Your No.1 Deals & Discounts Community hotukdeals Your Shopping Community The best place for Deals, Discounts & Freebies Find daily great offers and voucher codes on hotukdeals.",
+                "Justin Briggs   2 months ago I'll echo what others have said about rendering, but in my experience, the impact depends on how reliant your site's IA is on pagination for discovery and equity flow (i.e., Internal PageRank). \"Flat\" sites with many subcats, facets, secondary hierarchy structures, and robust related products have many alternative paths... and may not see as much impact because their pagination isn't adding much. You can evaluate this by comparing two crawls, one allowing pagination and one with them excluded. Compare changes in orphan URLs, depth, inlink counts, and internal pagerank. Can give you ammunition and demonstrate what URLs will be affected. 1",
+                "Alex Duncan   2 months ago Hey all. Thanks so much for the feedback. Would we know any case studies on getting off infinite scroll onto standard pagination and that's seen an uplift? (edited) ",
+                "Noah   2 months ago seriously? (414 kB) https://media0.giphy.com/media/11RIDouEyKZ116/giphy.gif?cid=6104955eswadtoyhxxap1asktum0st0ejsfcs5v433nnn8yq&ep=v1_gifs_translate&rid=giphy.gif&ct=g Posted using /giphy",
+                "Noah   2 months ago Hahahahahaha"
+            ]
+        },
+        {
+            "message_text": "Charbel Raffoul   10:47 AM With Shopify Markets, do you have the functionality of having different content on seperate regions? Can't find an example with an ecommerce brand that has seperate content 1 reply 2 months ago",
+            "replies": [
+                "Alex Wilson   2 months ago check guess. https://www.guess.com/ca/fr/home/ https://www.guess.com/us/en/home/ if memory serves they have separate content that is localized"
+            ]
+        },
+        {
+            "message_text": "OpenSay APP  8:32 PM Anonymous poll How do you spell it? Poll results (8 kB) https://cfw-input.anonymitybot.com/image.png?input=eyJ0ZW1wbGF0ZSI6InBvbGxCYXIiLCJkYXRhIjp7InRvcGljIjoiSG93IGRvIHlvdSBzcGVsbCBpdD8iLCJsYWJlbHMiOlsiZWNvbW1lcmNlIiwiZS1jb21tZXJjZSIsIkVjb21tZXJjZSIsImVDb21tZXJjZSIsInNvbWV0aGluZyBlbHNlPyJdLCJkYXRhIjpbNiw2LDEsOSwwXX19&sig=ExtMnezigpMOgCpIz41cBtNruejbL6stzSP2_IYcP1A Vote Anonymously  Karma: 7  |   2   3 Created with /anon",
+            "replies": [
+                "There is no reply thread in this message"
+            ]
+        },
+        {
+            "message_text": "Austin Cline   8:51 PM I've got a sporting goods client whose products kill it with paid ads, but he's struggling to get the same results via organic Shopping. Anyone have tips on optimizing feeds/product descriptions? Specifically looking for tips on getting product to show in the \"Popular Products\" carousel. TIA. 3 replies Last reply 2 months ago",
+            "replies": [
+                "Patrick   2 months ago how is Merchant Center populating the product listings? I assuming it's a direct integration with Shopify / WooCommerce / whichever platform your client is using for their ecommerce store?",
+                "Austin Cline   2 months ago @Patrick - yes, directly from Shopify integration.",
+                "Patrick   2 months ago okay, so this might not be helpful, but I'll mention it just in case: I had an Shopify client recently whose free listings were underperforming -- they used the standard integration, but when we checked under the hood, we found that: they were using a page builder that garbled their page descriptions and lumped information that would normally go into \"Product details\" or \"Product specifications\" within the description they were missing some required fields for certain product types, like \"multipack\" -- those products still appeared despite missing these fields, but they performed worse and didn't show up if users used multipack filters there were selling products on third party marketplaces, and they failed to regularly update those listings, so Google started replacing their listing details with content from those listings hopefully not an issue for your client, but if free listings are underperforming, it may be worth double-checking how well Shopify syncs up with the listings"
+            ]
+        },
+        {
+            "message_text": "Anastasiya I.   12:40 PM Hey guys! A client of mine has \"free delivery\" and \"3-day return\" labels appearing in organic SERPs for their main keywords. Products are listed in the Merchant Center but we've set a flat rate for deliveries and a no returns policy (it's not defined in a separate URL but in FAQ page on the website). Does any of you have any idea why Google shows these incorrect labels and how we can remove them, or at least replace with correct info? Any input will be much appreciated 1 reply 2 months ago",
+            "replies": [
+                "Jono Alderson   2 months ago There's schema for for defining returns policies, etc. Get that in place to minimize the chance of erroneous representation. 4"
+            ]
+        },
+        {
+            "message_text": "James   1:28 AM Anyone transition a b2b site on hubspot into website that also had an e-commerce component? Instead of leaf capture they also want to sell products online. Currently there is no e-commerce functionality and the site currently sits on two cms; hubspot and Wordpress. 9 replies Last reply 2 months ago",
+            "replies": [
+                "Amara Omoregie   2 months ago What kind of products? Theres a payments component where you can embed products on pages and pay for them all on Hubspot. If its info products thats super easy.",
+                "James   2 months ago manufacturing and construction equipment",
+                "Mika Lepist   2 months ago Not hubspot in this scenario specifically, but I have worked with a few ERP/OMS/CRM systems in B2B. My preference is for the e-commerce platform to be the most effective solution to reduce order friction and figure out the integration / other objectives from there. (edited) ",
+                "James   2 months ago @Mika Lepist would you say Wordpress/woo commerce with hubspot crm integration only (no SEO landing pages on a hubspot cms url) could be compelling, though curious to understand if Shopify can support a capability for b2b specifically eg industry specific b2b lead generation incorporating a scalable ecommerce tech to their web tech stack? (edited) ",
+                "Amara Omoregie   2 months ago If you have a full list of requirements that may be easier to gage. Are people purchasing products directly from the site? Or are they having to go to a sales person that prepares an order and then the customer pays for it through a curated link? What does the transaction piece need to look like as far as process goes? If its like buying everyday D2C things, but with a B2B focus, then a solution like Shopify could work. But if its different and you need to deal with POs, payment terms, etc that may require a different solution. 1",
+                "Mika Lepist   2 months ago I am generally not a fan of woo commerce (although I love WP) but in honestly I have not used it in a while because of that mindset. The last few have been custom or SF B2B ecom. I haven't tried B2B only (but have had B2B combined with B2C) with Shopify. Simplicity makes me lean toward investigating Shopify B2B, without knowing the full scope and other pertinent information. You might also be able to do Shopify B2C but eliminate pricing and cart actions by requiring a user to be logged in with some custom liquid. Hope that helps.... hard to have non-specific discussions 1",
+                "Amara Omoregie   2 months ago @Mika Lepist have you used Shopify Plus yet? It has a lot more B2B functionality. I havent tested it yet.",
+                "Amara Omoregie   2 months ago The $2000/month price point is annoying",
+                "Mika Lepist   2 months ago Nope, haven't had the budget for that so no experience there. 1"
+            ]
+        },
+        {
+            "message_text": "Paul Baterina   1:28 AM Hi! I know this is AI but also e-commerce. So if you feel it needs to be moved to AI lemme know. With that said, has anyone tried out https://www.lily.ai/ or anything similar? Very curious to see how it can help especially with automating product attributions. Lily AI Ecommerce Product Discovery Platform for Brands | Lily AI Lily AI is the product attributes platform that accurately connects your shoppers with the relevant products theyre looking to buy. Dec 10th, 2021 (79 kB) https://www.lily.ai/",
+            "replies": [
+                "There is no reply thread in this message"
+            ]
+        },
+        {
+            "message_text": "Pirri Licandro   9:33 AM Hi all! A bit of a random question. I have a client who has subdomains for international market. They want to keep two subdomains as they as they perform well, but migrate the others to subfolders. So it would look something like this: example.com/us/, example.com/uk/ au.example.com nz.example.com Has anyone seen this before/performs well? And would the hreflang tags work correctly? TIA 1 5 replies Last reply 2 months ago",
+            "replies": [
+                "Ash Nallawalla   2 months ago For folders, check Apple's global (official) sites in a few countries. Moving from a subdomain to a folder has made a slight improvement in  traffic, but hard to say if that was the only reason.",
+                "Peter Ebbinghaus   2 months ago Haven't seen it divided like that before (only as a way to divide multiple languages for the same country). If implemented correctly, hreflangs should work either way, yes. They should let you know how they'll implement it, though, so you can tell them if it's the right approach. That being said, I personally would always prefer technical consistency (might also make it easier to implement the hreflangs correctly because of similar URL structures). Usually less headaches along the way / afterwards. Thus I'd recommend them to move all sub domains to sub folders, instead of having still two as sub domains. If all redirects are set correctly there shouldn't be any performance gaps at all since it's a very straightforward use case for redirects. 1",
+                "Sophie Brannon   2 months ago You can have both on a site but not with all templates - it may require some modification depending on the CMS/theme depending on the complexity of the set up. Hreflang in theory should work as long as its set up correctly. I personally prefer a sub folder approach over a subdomain because you benefit from the authority that the root domain holds. You dont on a subdomain as its treated as a separate site. So if youve been doing lots of link building / PR and have solid internal linking, then thats a benefit to subfolders. However depending on the size of the site this could end up with subfolders/URLs thats layers and layers deep. A subdomain is likely more flat and compartmentalized. But again good IA and internal linking should stop this from being a problem. Id consider the pros and cons of it more from a consistency perspective and whats best to manage for you/them internally as well. Thats often the biggest challenge of a large international site particularly a large eComm. Id suggest having all on one or the other rather than mixing both versions. Generally as Peter has said already, as long as everything is redirected properly and technical structure is sound (audit everything in staging before rollout!) then performance shouldnt be impacted anyway, and if anything these sections may get a little boost from the roots authority if moved to a subfolder. 3 1",
+                "Mika Lepist   2 months ago Pick one, don't confuse the issue by having methods to maintain. Subdirectories are a little bit more \"powerful\" all other things being equal. (edited) ",
+                "Adam Humphreys   2 months ago I would move them all over as a single entity vs sub domains."
+            ]
+        },
+        {
+            "message_text": "Paul Baterina   1:51 AM E-commerce Enterprise Question: We have struggled from time to time when if a technical issue has been resolved, that technical issue will come back for who knows what reason. We're trying to somewhat automate this so that I don't have to manually find the problem myself. Sure - I can set a schedule of running weekly crawls, monthly crawls etc. but even then things can happen at any given day where the crawl might be too late (if there's an issue). Has anyone ever created a system where they worked with their engineers and UX team and worked on some sort of script/logic that if X were changed, you would get an e-mail right away?  In other words, I create a checklist of things, whether it's a notification if \"title tags were removed, canonical tags are different, redirect was changed, noindex tag applied\" etc. and I pass it on to our QA + Engineering team. That way, whenever a change were to be made, either they get a notification saying \"are you sure (because of SEO best practices)?\" Vs. Me finding the issue (and our site is extremely large), months later and depending on the technical issue could've been a detriment to the overall company. And if you have a better suggestion, please advise. Thanks everyone! (edited)  +2 18 replies Last reply 28 days ago",
+            "replies": [
+                "Kyle   1 month ago They need to build in unit tests to check for certain pass/fail scenarios related to SEO. 1",
+                "Kyle   1 month ago If it fails in QA, then they need to fix it",
+                "Tyler Brown   1 month ago I'm fairly sure this is what ContentKing does. Unfortunately, I think you have to buy Conductor now.",
+                "Boris Kuslitskiy (he/him)   1 month ago This should ideally be part of regression testing by QA. 2",
+                "Boris Kuslitskiy (he/him)   1 month ago Or, as Tyler mentioned, ContentKing. You don't have to buy Conductor though. My company currently uses ContentKing but not Conductor.",
+                "Kyle   1 month ago @Paul Baterina - we did this at trusted media brands with their dev/engineering teams. it didn't catch everything always, but it definitely helped mitigate the \"oh shit, we just noindexed our entire site on this production release on friday afternoon\" type of scenarios.",
+                "Paul Baterina   1 month ago We do have a QA team, but here's what happens (just an example scenario).. Current Process... JIRA has been created. Engineer works on it  I go on the test servers to see if tech issue is fixed. Passes on to QA Pushes live. X random day occurs after live, maybe 40 days, maybe 3 months, maybe 8 months. Same issue rises, or even a layer of issues of that technical change. Whether the site was reverted, the site had an update, or someone messed with coding, etc. etc. There is no alarm set where engineers or UX team would get a notification saying \"Are you sure you want to do that because X was stated that this should be like this?\" This is where we're having difficulty, in creating that system/process to prevent it from happening (again). In an engineers eyes, they may just think \"oh, hell yeah another problem I got work to do!\" lol. But we want to minimize that. (edited) ",
+                "Kyle   1 month ago Yeah, thats what we were solving for. I should probably have said if it fails when going to QA instead of if it fails in QA. Basically, create regression testing scenarios that stops it from being able to push to the next stage if it doesnt pass. The scenario logic that you mentioned in your original comment should be pretty easy to do and will save you from a lot of the issues that you run into.",
+                "Paul Baterina   1 month ago Gotcha!",
+                "Paul Baterina   1 month ago Thank you @Kyle . Maybe if I create a JIRA through midjourney, it would come out flawless vs. what we were trying to do a week ago? LOL 1",
+                "Paul Baterina   1 month ago @Tyler Brown def not buying conductor. I went off with conductor in the past lol. If any of them are in here, I'm sorry LOL. (edited) ",
+                "Noah   1 month ago Little warden",
+                "Noah   1 month ago Or seo radar 1",
+                "Boris Kuslitskiy (he/him)   1 month ago @Noah , those look good and definitely cheaper than ContentKing.",
+                "Noah   1 month ago thank me later (2 MB) https://media2.giphy.com/media/uCkjolIVLE8NPWdXlF/giphy-downsized.gif?cid=6104955e568nyrtk8f4w72yy3o7h883ubnq934wji76a09kh&ep=v1_gifs_translate&rid=giphy-downsized.gif&ct=g Posted using /giphy | GIF by Disney+ 1",
+                "Boris Kuslitskiy (he/him)   1 month ago I'll thank you when it comes time to renew ContentKing and I have a better solution to offer. 1",
+                "Robin Allenson   1 month ago Just jumping in here a little late. I know the ContentKing guys and a few of their happy users. We ended up building a monitoring solution too. I wanted to explain how that came to be and give some suggestions on regression testing. We were working with a big marketplace, and wed just launched a few 10,000s of new long tail pages. We were pretty happy with these: good search demand, great matching products, solid SERP intents and relevant inlinks. We tracked them but found to our dismay that they werent ranking. At all. We started crawling them and the linking pages to make sure that everything was working as it should be. And we found that ~15% of them were non-indexable. Weird. We checked Botify and they showed something similar. We ramped up the frequency of the crawls so that wed crawl most pages a few times a day. And  guess what  we found every page was non-indexable at least one time a day, but they oscillated on and off. Not just our new pages but all the other pages. Botify was crawling the site once every 2 weeks so they never saw it. We reported it to the client dev team and they had a fix within a day. It turned out that, like many marketplaces, they had logic to 302 pages when they didnt have inventory. But there was a bug in that logic so that every page incorrectly thought it had 0 products a few times a day. Nasty. To catch regression bugs like these, its useful to crawl a small subset of pages frequently. We call them canaries. You can crawl a small sample a lot without overloading the server. You can crawl a bigger sample less frequently and the whole site even more slowly. This isnt the only story of regression errors hurting our projects. But its the most egregious.",
+                "Holly Miller Anderson   28 days ago I think you already have a lot of good feedback here, @Paul Baterina but I thought I'd hop in quickly to advise a few things I've done that work: set up any automated regression SEO tests for the site that you can. work with your QA lead to get the regression test list in place; they own this part of the agile process.  use a tool like SEO Radar to flag when high level things like titles, links, content change. plan to circle back with QA/engineering monthly to show them the velocity of how many new features are being released vs. bugs they're having to fix related to regression issues. hope that helps! 2"
+            ]
+        },
+        {
+            "message_text": "Matt C   3:05 AM hey guys, is anyone having trouble with ecom reporting in GA4? I'm finding it to be a huge pain, and struggling to understand the logic when I encounter issues. For example, for one of my clients, I can't find the values this article says to create under the ecom view. I'm only able to add the following values (see screenshot). Everything is darkened, I can't select it. Does this mean there's a problem with the data it's gathering? Or perhaps I don't have something configured properly in GA4? https://www.optimizesmart.com/organic-search-traffic-analysis-in-ga4-complete-guide/ (edited)  image.png  3",
+            "replies": [
+                "There is no reply thread in this message"
+            ]
+        },
+        {
+            "message_text": "Paul Baterina   11:36 PM Has anyone ever tested out custom attributes, where they went a bit more in-depth in their product? For example, if I sell dresses, I may want to add occasions (great for weddings etc), color, length, etc. https://support.google.com/programmable-search/answer/1628215?hl=en&sjid=12510775128034160409-NA And if you've added custom attributes, did you run a test to see if there was a lift in organic traffic? Simultaneously, ensuring that the product feed doesn't interfere with other channels especially paid? support.google.com Custom attributes - Programmable Search Engine Help It can be useful to add custom attributes to your search result snippet. For example, a product page might feature a dress, which could have a \"Designer\" attribute and an \"Occasion\" attribute. To a 2 replies Last reply 1 month ago",
+            "replies": [
+                "Dave Smart   1 month ago Keep in mind these are only for google custom search, i.e. an internal search system for your site, like Barry uses on https://www.seroundtable.com/ These do nothing in organic google searches, so wouldn't do anything for organic traffic that way. I guess they might help users if you used this as your internal search, but I'd argue it's a poor choice of internal search for an e-commerce site anyway.",
+                "Paul Baterina   1 month ago @Dave Smart okay that's good to know. A third party we're working with basically just wants all and any information so they can make sure when they create a page for us, it doesn't cause any duplication."
+            ]
+        },
+        {
+            "message_text": "Tim McNamara   11:41 AM Ecom CRO question - Im looking for an e-commerce Conversion Rate Optimization (CRO) service that operates on a pay-per-webpage basis. I remember seeing one before, but I cant seem to find it now.. Any chance someone here knows of this service or has any recommendations? 1 reply 1 month ago",
+            "replies": [
+                "Boyd Norwood   1 month ago Im not sure what their pricing structure is but these guys are the best from what Ive heard: https://conversion-rate-experts.com/ Conversion Rate Experts  Optimization for your website Conversion Rate Experts  Optimization for your website How we can help you hit your conversion rate optimization goals (168 kB) https://conversion-rate-experts.com/ 1"
+            ]
+        },
+        {
+            "message_text": "Paul Baterina   11:27 PM Howdy hello and hi! I'm going to do an in-depth PDP competitive analysis. I was wondering if any of you would like to provide any recommendations or anything that I may be missing from the list below (list of things that I will be investigating). Ultimately, I hope this potential thread can be useful for everyone else in the sense that when they do an analysis (specifically PDP), they can come back to this thread. And hopefully, the list I have is a good start as well with anyone else here that contributes. FYI - I did not include link analysis. Here are the things I'll be looking at..(no particular order) Determine common trend of competitors that improved after a core update - identify common keywords in the space (if any). Based on the competitors, identify frequency or total # of new products from comparison of Q2 to Q3, etc. Identify current page structure/heading structure from competitors. Utilize archive.org / or something similar (if any) to see if the heading tags were changed from desktop vs mobile. Sitemap structure - anything different? Page speed analysis - how much better?  Analyze product descriptions, were they changed from the competitors? How? Any internal links implemented? Were videos added? Or any other interactive tool that would make the user stay on page? Style size guide on the PDP level etc? Technical - any hidden HTML/CSS shown on mobile vs desktop? Proper redirects? Canonical tags? Schema Markup? Anything changed for competitors vs us? Product recommendations logic. How is it better if it is? Product reviews - how are customer reviews in comparison to us? What's included in the review? Any virtual / Augmented reality feature? Navigation structure both desktop vs mobile. Any internal links going to actual \"blog content\" from the PDP level? Or, are there actual content on the competitors (blog style), internally linking to the PDP level? If so, how many? Basic onpage SEO, how are the meta descriptions, and the title tags? Have they been changed from previous quarter to new quarter? Granted - not a specific bullet point may be the reason for them to improve in rankings I get that. But it's now taking this holistic approach (for me at least), to see what are some areas to improve on, especially if the top competitors are doing them. And then, taking the approach of \"Well, what can we do better?\" Thanks everyone! (edited) ",
+            "replies": [
+                "There is no reply thread in this message"
+            ]
+        },
+        {
+            "message_text": "Matt C   1:47 PM hey guys, what are some business citations you regularly use for ecom? 4 replies Last reply 1 month ago",
+            "replies": [
+                "Noah   1 month ago 1",
+                "filip silobod   1 month ago Google whitesparks list for citations for a certain country",
+                "Matt C   1 month ago @filip silobod looks like that's just for local - or does it matter?",
+                "filip silobod   1 month ago for each country yes. better do local first"
+            ]
+        },
+        {
+            "message_text": "Matt C   1:56 AM for all my gripes about GA4, the attribution modeling is incredible. I can see how organic has had a direct impact on overall conversions, whereas before it was a difficult guess image.png  4",
+            "replies": [
+                "There is no reply thread in this message"
+            ]
+        },
+        {
+            "message_text": "Emily Dougherty (Yost)   11:02 PM Not sure if this is the best place for this - trying to answer this for my client and I am stumped: \"Dont the images all have there own url?  Is there a way to pull them at the same time? Theres about 700 images pulling up that way out of 80,000+ Could you look for why you think these are and others are not.  There is a mix of old and new listings pics and this one is old but showing indexed 2 days ago so maybe theres a clue there.\" He is trying to see a full list of indexed images. And he is wondering why Google is showing roughly 700 images in image search, even though they have many more than that. They are a big vintage mid century modern ecomm business. 6 replies Last reply 27 days ago",
+            "replies": [
+                "Ethan   1 month ago Hey! To be honest Im not 100% sure on this one so Id be interested to hear what others have to say, but my best bet is that Google hasnt indexed some of the images on-site as you only have a limited crawl budget, and so if there are thousands of images, it wont necessarily crawl every single one, particularly if you have multiple images of the same product that are similar. On that particular product that youve screenshotted, there are around 15 images but it looks around 5 of them are indexed. Again this can be to do with the images being similar, and having separate distinctive alt texts that describe the image will help with this too. If its a new product then this can take some time to be indexed, and it will be affected by the pathway to the product (click depth) and your internal linking. So typically it would be something like homepage > collection > product, but if you have no internal/external links pointing directly to that product page then it will take longer for it to be indexed. Obviously this is difficult when you have hundreds/thousands of products to juggle but if its one thats important then you can help it by linking in collection page description, blogs, other similar products with traffic etc. Also, when youve showed that the images on in-stock items are appearing broken on GSC  they are showing fine for me its either something to do with the built-in preview on GSC, or like youve said the fact that the images arent indexed. But they show up fine on the site if thats what you meant?",
+                "Emily Dougherty (Yost)   1 month ago Thank you so so much for taking the time to share this info. It's extremely helpful! The limited crawl budget makes sense, because Google is currently spinning its wheels crawling thousands of 404 image URLs (that's another issue that I'm currently working through). Sounds like the two issues might be connected.",
+                "Mika Lepist   29 days ago Are these unique (they took the picture) images or are they ones that were provided by perhaps product manufacturers or distributors and already have a version indexed?",
+                "Emily Dougherty (Yost)   28 days ago they are unique",
+                "Mika Lepist   28 days ago DM me a couple pages where images from them aren't being indexed, and some where they are and I'm happy to give it a quick look. Maybe 4 each?",
+                "Emily Dougherty (Yost)   27 days ago So, I dont believe any of them are being indexed. I will DM you a list of them. Thank you!"
+            ]
+        },
+        {
+            "message_text": "Emily Dougherty (Yost)   11:03 PM Images on in-stock items are appearing broken in GSC URL inspection: image.png  ",
+            "replies": [
+                "There is no reply thread in this message"
+            ]
+        },
+        {
+            "message_text": "Muhammad Jazib   1:15 PM I have a quick question regarding publishing article on an e-commerce site in the MENA region. Can I use the same meta title and H1 tag for my article, both featuring my primary keyword 'Enzymes in dishwasher detergents'?\" 3 replies Last reply 28 days ago",
+            "replies": [
+                "Kyle   29 days ago Yes; I cant see why not!",
+                "Ruth Burr Reedy   29 days ago Using the meta title as the H1 is a pretty common practice for a lot of blogs  many of them even have it set up to automatically populate the H1 with the title tag, or vice versa. Go for it!",
+                "Muhammad Jazib   28 days ago Thank you for the help"
+            ]
+        },
+        {
+            "message_text": "Matt C   2:51 AM does anyone have experience with CBD stores? I know someone that is looking for an SEO. I don't have experience with that niche and I know it can get a little challenging. TBH my clients are challenging enough 7 replies Last reply 28 days ago",
+            "replies": [
+                "Mika Lepist   29 days ago I know someone who has worked in that space at least a little. DM me and I'll connect you. Is this a contract or hiring thing? (edited) ",
+                "Tim McNamara   29 days ago id suggest having a chat to @Harrison Lavery  (edited) ",
+                "Dylan Jones   28 days ago @Jameson Treseler definitely has experience in that space.",
+                "Jameson Treseler   28 days ago Hey @Matt C happy to chat and see if we can help. ",
+                "Jameson Treseler   28 days ago (And thanks @Dylan Jones ) 1",
+                "Matt C   28 days ago hey guys, dm me your linkedin or something I can pass to this company",
+                "Jameson Treseler   28 days ago just Dm'd you"
+            ]
+        },
+        {
+            "message_text": "Katie High   7:16 PM long time listener, first time caller here. I have a client with a very specific need. I am looking for an SEO agency with substantial eCommerce client experience- but particularly in high volume products (as in millions of parts) with complex selling/distribution channels. Does such a speciality exist? 7 replies Last reply 25 days ago",
+            "replies": [
+                "Kyle   28 days ago Thanks for calling in! They do, and youll likely find a good few consultants in this area as well. If youre looking to hire now, Id recommend posting in #jobs! 1",
+                "Katie High   28 days ago Great. If it's not exactly a job but more a client referral, is that still the right place?",
+                "Kyle   28 days ago Yep! 1",
+                "Stephen Spiewak   28 days ago love a good radio reference. I'll hang up and listen 2",
+                "Holly Miller Anderson   28 days ago hi Katie, I once worked with Merkle, the agency of record, when I worked as an SEO for Sears Parts Direct. They were great. Happy to connect you if you'd like an intro.",
+                "Katie High   28 days ago Thanks Holly. That's perfect. I'd love an intro.",
+                "Tory Gray   25 days ago It does and were it, @Katie High ! I personally worked on RepairClinic for ~2 years, the largest supplier of after-market parts for appliances - Sears was a competitor before they want under haha ( Among other large scale eComm companies I cant always name due to NDAs, unfortunately!) I can also recommend Inflow - they are an eCommerce shop. Really, there are a few good enterprise eComm SEO shops out there!"
+            ]
+        },
+        {
+            "message_text": "Matt C   3:02 AM What is everyone using for lookerstudio reporting with GA4? I'm not seeing much interesting stuff... 1 reply 25 days ago",
+            "replies": [
+                "Tory Gray   25 days ago as in different connectors? or templates that leverage it? Or what do you mean"
+            ]
+        },
+        {
+            "message_text": "Thomas   2:00 PM Would love to know who you think has a great ecommerce sites overall. Looking for inspiration on how to handle navigation/filters/hub pages but also just good to generally have a go-to list of sites for sanity checks. 5 replies Last reply 23 days ago",
+            "replies": [
+                "Alex Wilson   24 days ago what is your niche",
+                "Thomas   24 days ago Home & garden",
+                "Rick   24 days ago The XML sitemap system on www.angi.com is * chef's kiss *   I recommend using that as a model for large eComm architecture. https://www.angi.com/robots.txt",
+                "Paul Baterina   24 days ago wayfair.com 2 2",
+                "Edwin Romero   23 days ago I've used wayfair.com as an example of an optimized site on numerous occasion as well."
+            ]
+        },
+        {
+            "message_text": "Omar Mourchad   4:39 AM Hey There, I have an eCommerce client that is being flagged by Google Merchant Centre for having different price appear on the page because of a different height options but the Shcema is only showing one of the prices. Is there a schema to show a price range so google knows that we have different prices based on the option the users pick. 16 replies Last reply 17 days ago",
+            "replies": [
+                "Dave Ojeda   23 days ago This would be a great question for the #schema channel",
+                "Omar Mourchad   23 days ago oh cheers",
+                "Omar Mourchad   23 days ago I didnt know there was another channel 1",
+                "Daniel Zuccon   23 days ago is this a schema issue or GMC doing their own checks?",
+                "Omar Mourchad   23 days ago GMC flagging it",
+                "Omar Mourchad   23 days ago I have another product that uses modifiers which shows a min and max price but even that is giving me an error.",
+                "Daniel Zuccon   22 days ago I mean, I'm not sure if GMC cares about what's in your schema in this case do you have a separate product feed?",
+                "Omar Mourchad   18 days ago @Daniel Zuccon Im not looking after their Merchant centre feeds but I can ask. 1",
+                "Omar Mourchad   17 days ago @Daniel Zuccon just so I know what to ask. Is there a difference if the product has its own feed or not?",
+                "Daniel Zuccon   17 days ago what usually happens is you have a \"feed\" for your website (see: https://support.google.com/merchants/answer/7439058?hl=en) that you submit to GMC it's basically like an XML sitemap, but with all the product details to submit to GMC when I've seen errors like this before, it's because what you are telling GMC via your feed, is different to when Google does a spot check (like pretending to be a real customer on your site) so your feed might say a \"2m high widget\" is $10 but if you browse the website manually it is $11 plus shipping so going back to your original question, I don't think it's related to Schema at all, it is more likely to be a feed issue (or it could be both!) support.google.com Create a feed - Google Merchant Center Help To upload your product data in Google Merchant Center, you'll first n",
+                "Omar Mourchad   17 days ago I had a client that had a GMC variant issue because the schema was not displaying the right instock status. By fixing the shcema the issue was resolved",
+                "Omar Mourchad   17 days ago @Daniel Zuccon but yes the issue is because the feed is getting a different price than what is on the page because I have multiple variants of this products on the same URL. Do you  know how to fix this? (edited) ",
+                "Daniel Zuccon   17 days ago if they are all marked up correctly, Google should be able to recognise different variants have different prices (there's no issues with that)",
+                "Daniel Zuccon   17 days ago bit hard to give you a better answer without the actual error message from GMC and the code causing it",
+                "Omar Mourchad   17 days ago https://www.outbackfencing.com.au/colorbond-fencing-panel-std-profile-100-australian-made[]-long-3x-sheets-2x-posts-2x-rails-screws/?sku=SKU-112-HA Outback Fencing Online Fence Supplies Colorbond Fencing Panel. STD Profile. 100% Australian Made (2.4m long) 3x Sheets, 2x Posts, 2x Rails, Screws STD Profile Colorbond fencing Panel Australian made (2.4 l/m) 0.35mm Thickness (Choose Colour)",
+                "Omar Mourchad   17 days ago Please update your product data to comply with all of our data quality requirements on prices. Learn more about price and how to troubleshoot inaccurate price status due to inconsistency between feed and landing page To help you address the problem and to reduce the likelihood of further inconsistencies, we recommend using automatic item updates and other available tools to optimize feeds. Learn more on how you can provide accurate data Examples of violations: Colorbond Fencing Panel. STD Profile. 100% Australian Made (2.4m long) 3x Sheets, 2x Posts, 2x Rails, Screws - 856 - https://www.outbackfencing.com.au/colorbond-fencing-panel-std-profile-100-australian-made-2-4m-long-3x-sheets-2x-posts-2x-rails-screws/?sku=SKU-112-HA Value on the landing page - 99.30AUD Value in the data feed - 127.29AUD support.google.com Price [price] - Google Merchant Center Help Use the price [price] attribute to tell users how m support.google.com How to fix: Inaccurate price status due to inconsistency between feed and landing page - Google Merchant Center Help Your account has either been warned or your products have been preemptively disapproved due to this error support.google.com About automatic item updates - Google Merchant Center Help If youre looking for i"
+            ]
+        },
+        {
+            "message_text": "Robert Spinrad   7:48 PM I've got a client with a large amount of unsubmitted pages being indexed, most of which look like the URL in the screenshot below. Any suggestions for how to limit this? (edited)  image.png  9 replies Last reply 18 days ago",
+            "replies": [
+                "Kyle   18 days ago looks like the \"quick view\" feature on PLPs. quick idea would be to: change it to be a button + js if possible (aka no link) apply a \"x-robots-tag: noindex\" to HTTP headers for anything with wc-api parameters 2",
+                "Robert Spinrad   18 days ago Thanks, Kyle. It's probably around 2k URL strings. Can this be done in bulk by a dev?",
+                "Kyle   18 days ago looks like it's a woocommerce site, so not sure about the first one, but possibly. the second one should be possible via dev (and would apply globally once set, depending on how they set it up).",
+                "Robert Spinrad   18 days ago Yup, woocomm. That's really helpful. Sounds like it wouldn't be retroactive though, right? If that's the case, I guess my only option to clean up the existing ones would be to add them to the Removals",
+                "Kyle   18 days ago Removal is temporary. The X robots tag noindex will help get them out of the index.",
+                "Robert Spinrad   18 days ago Oh okay cool. So doing that would impact the existing URLs too. Even better",
+                "Mika Lepist   18 days ago I don't see why a dev couldn't match against the URI request and if inject noindex into headers in an appropriate file to fix this quickly and programmatically. But I can't imagine you're the only one with this issue with something as popular as woo commerce. I don't use woo commerce so I don't know where to look for that, but I would be surprised if nobody else has encountered it. Or open a ticket with support.",
+                "Robert Spinrad   18 days ago @Mika Lepist you're probably right out that. I'm probably not the only with this issue. I already reached out to my client's dev so I'll wait to hear back. Thank you both!",
+                "Mika Lepist   18 days ago Looks like it's an issue with the plugin vs WC core. Lots of sites with those being indexed: https://www.google.com/search?q=inurl%3AWC_Quick_View 1"
+            ]
+        },
+        {
+            "message_text": "Scott Salter   11:36 PM Interested if anyone has any interesting ways to map or plan their internal linking across e-commerce stores? Always feels like quite a manual process 1 reply 18 days ago",
+            "replies": [
+                "Eric Wu   18 days ago The wordlift blog has a great post on this: https://wordlift.io/blog/en/internal-linking-category-page/ WordLift Blog Creating Internal Links For Ecommerce Category Pages Learn how to automate internal link building for your e-commerce category pages by creating related search widgets. Written by Andrea Volpini Est. reading time 15 minutes Jun 9th, 2022 https://wordlift.io/blog/en/internal-linking-category-page/ 2"
+            ]
+        },
+        {
+            "message_text": "Jessica Smith   1:22 AM has anyone set up new ecommerce events through tag manager with the new google tag manager setup? I am having a bit of trouble, is it supposed to be one event now or separate events? 2 files  5 replies Last reply 17 days ago",
+            "replies": [
+                "Alex Wilson   18 days ago I prefer setting them up individually, you technically can do them all at ones, but I dont like that personally.",
+                "Alex Wilson   18 days ago I find its hard to troubleshoot and monitor whats going on",
+                "Seppo Puusa   18 days ago As with many other things in Analytics and GTM, you can do this in either way. Neither is right or wrong. It comes down to preference and what kind of events are pushed into the datalayer.",
+                "Alex Wilson   17 days ago I just hate troubleshooting that regex...",
+                "Jessica Smith   17 days ago Thanks All, I appreciate the feed back"
+            ]
+        },
+        {
+            "message_text": "Paul Baterina   2:13 AM Thoughts on boilerplate content on PDP pages? Specifically \"About The Brand\". We have a ton of product pages that are from various brands, whether it's Nike, Patagonia, Adidas, etc. Each product page has a tab -> About the Brand and it gives a couple paragraphs about it. I want to do a test, where I add internal links within the paragraphs regarding that brand. My question, am I running a risk of having say....50 products for a specific brand, all with the same boilerplate content, now with all of the same targeted internal links page + same exact anchor text?  Is it even worth testing? Or am I just setting up for doomsday here lol. 1 reply 15 days ago",
+            "replies": [
+                "Holly Miller Anderson   15 days ago It's worth it, but it sounds like to make the revenue part of it work, you might consider grouping the brand pages so that you don't create overlap for yourself. So like Patagonia + X other brands would internally link for this group of evergreen terms. And Nike, Adidas would be this group of terms. Almost segmented by the brand specialty. Hope that helps, or at least gets the gears turning :) 1"
+            ]
+        },
+        {
+            "message_text": "Emily B.   2:33 AM Hi, happy Tuesday! Has anyone found any great GA4 courses/certifications, preferably with an ecomm focus? I found this one that looks interesting (https://www.cim.co.uk/training/list-courses/google-analytics-4-ga4/) but looking for suggestions. Thank you. cim.co.uk Google Analytics 4 (GA4) How and when to use Google Analytics 4 (GA4) 1 3 replies Last reply 17 days ago",
+            "replies": [
+                "Mika Lepist   17 days ago I can't comment on these specifically, but did you know that LI has some free courses? Some LI learning are certificate eligible if you test for them through a partner. I don't know if those tests require $ https://www.linkedin.com/learning/topics/google-analytics (edited)  1",
+                "Daniel Zuccon   17 days ago https://websavvy.thinkific.com/courses/GA4-Your-Business (edited)  WebSavvy GA4 Your Business Learn how to use GA4 to boost website performance and drive growth. This practical course is designed for business owners and marketing managers, providing hands-on training to track data, analyze user behavior, and optimize campaigns... (23 kB) https://websavvy.thinkific.com/courses/GA4-Your-Business 1",
+                "Stephanie Briggs   17 days ago I'm still in the process of taking it but I'm learning so much from @Dana DiTomaso 's course. 1"
+            ]
+        },
+        {
+            "message_text": "Muhammad Jazib   2:26 PM Hello Everyone, I'm working on an e-commerce site for M.E.N.A region, and in my project, there are 14 keyword themes. Each theme has an average of 500 keywords. I need to categorize these keywords into four categories as per the client's requirement: Categories are: Need-based terms Solution-based terms Product-based terms Purchase-based terms Is there any tool or perhaps a ChatGPT prompt that can help me easily accomplish this task? Manually categorizing 500 keywords for each theme would be time-consuming. 3 replies Last reply 15 days ago",
+            "replies": [
+                "Rick   16 days ago Set up a noteable.io account and use the Noteable plugin in ChatGPT 4. Upload a CSV with your keywords into a Notable project. Be sure your keywords column has a header (for example: \"terms\") Ask ChatGPT to put your terms into your chosen categories Manually check Chat GPT's work to be sure it meets your expectations. Example prompt: Use this as my default project: {noteable.io project URL} Load this dataset: {notable.io dataset path} Act as a data scientist and categorize the {column header name - example: \"terms\"} into the following categories: Need-based terms Solution-based terms Product-based terms Purchase-based terms Make sure you have enough time to play around with mechanics and prompting, so you can tune the process in a way that meets your needs. The workflow comes from this tutorial here: https://www.youtube.com/watch?v=JXOvN8gRMkY Good luck! (edited)  YouTube | The PyCoach Automate Data Analysis with This ChatGPT Plugin 3",
+                "Muhammad Jazib   15 days ago Thanks Rick     1",
+                "Rick   15 days ago You bet. For a extra insight, include monthly search volume, ranking URLs, and any other associated metrics in your keyword dataset. You can ask ChatGPT for insights related to your metrics. This can help you determine relative value, and prioritization. 1"
+            ]
+        },
+        {
+            "message_text": "Hasna EA   11:03 PM Hi there   one of my client is migration its ecomm website from magento to shopify. Do you have any information/best practices/advices to share to have a smooth transition? I am not familiar with shopify   Thanks! 2 replies Last reply 8 days ago",
+            "replies": [
+                "Seppo Puusa   11 days ago One thing to look out for is that Shopify doesnt allow nested collections (categories). So if the existing structure contains nested categories, this can cause some issues later on.",
+                "Hasna EA   8 days ago Thanks! Ill add that to my checklist"
+            ]
+        },
+        {
+            "message_text": "Mika Lepist   11:56 PM Set up your redirects properly & monitor for 404s. You can set the 404 monitoring up in GA as well as using a Shopify plugin but I prefer the plugin because it's server side vs client. I don't know what the Plus version offers, but that is how I've done it. The product import/export function is very handy for updating page titles, content, and meta desc in bulk. There are some other plugins for bulk import/export that have more functionality for collections if you have a bunch of those. (edited) ",
+            "replies": [
+                "There is no reply thread in this message"
+            ]
+        },
+        {
+            "message_text": "Scott Salter   4:28 PM Has anyone tested the impact of including product reviews on ecom PDPs vs not? 5 replies Last reply 11 days ago",
+            "replies": [
+                "Alex Wilson   11 days ago anecdotally they always help in my experience. But getting them can be tough. I have never seen AB testing results on it though.",
+                "Stephanie Briggs   11 days ago A few years ago, losing the rich snippet for them in search results was a 5-10% drop. I also have consistently seen that word count, including reviews, is positively correlated with traffic for PDPs. Lots of positives, no negatives minus cost of implementing.",
+                "Paul Baterina   11 days ago What about PDP's with poor reviews? Lol. I have a strong handful of 2.5/5 star reviews . May need to a correlation of that as well.",
+                "Alex Wilson   11 days ago bad reviews is tough, you need to do 1 of 2 things, figure out what is causing that poor review and fix it, or get rid of that product.",
+                "Alex Wilson   11 days ago at least in my book"
+            ]
+        },
+        {
+            "message_text": "Dylan Jones   9:13 PM Anyone ever seen these linked prices as a rich result before? I'm assuming that they are caused by association between a product line and SKU URL with breadcrumbs, but wanted to know if anyone else had any idea. image.png  12 replies Last reply 9 days ago",
+            "replies": [
+                "Jarno van Driel   9 days ago Do these prices happen to be actual links on the page as well, possibly even in a <table> element? Because I'm very tempted to say this has absolutely nothing to do with any form of markup, nor any add-on generated through GMC feed data (that I know of). (edited) ",
+                "Dylan Jones   9 days ago They are not. The only way to access them on page is to put in information about your vehicle to narrow down to a specific SKU.",
+                "Jarno van Driel   9 days ago There has to be a source for those links and their association with the page. Do you happen to know if there is a GMC feed and if these variants have the same itemgroup_id? (edited) ",
+                "Dylan Jones   9 days ago I know that there is a GMC feed. I'll check into the itemgroup_id",
+                "Jarno van Driel   9 days ago Furthermore I'm wondering if these linked variants: have their canonicals set to the url of the page of the snippet? contain links back to the page of the snippet (via breadcrumb or other links)?",
+                "Jarno van Driel   9 days ago Sorry for the rambling but the more I look at the snippet the more confused I get. The price range for the snippet seems to be markup driven, yet according to Google's documentation (and in the case of most sites) schema.org/AggregateOffer shouldn't work here.",
+                "Dylan Jones   9 days ago That's where I'm at too, haha. Feels like mini-sitelink-esque rich results. To answer your other questions: The SKU URLs are canonicalized to themselves and only linked to via sitemap There are links back via breadcrumbs and also have breadcrumb schema built on them. That was another possibility that I was running through.",
+                "Dylan Jones   9 days ago Looks like SEMrush is considering them sitelink snippets",
+                "Jarno van Driel   9 days ago OK, so they can be found via the sitemap and they link back to the url of the snippet. Check. Does the page also contain AggregateOffer markup? In theory (and most of the time in practice as well) this isn't supported as AggregateOffer markup is only supposed to be working for a single product with multiple Offer items of multiple sellers. And my first thought was site links as well, I've just never seen them for prices. Plus as far as I know site links only show up if such links are present in the content of the page. Reason for my first question. Reason I asked about about the itemgroup_id is because there are whispers that Google might be working on support for product variants, based on new types of markup created for variants over at schema.org. Markup we developed in cooperation with folks from Merchant Center. Meaning it could be you're seeing a first test here. Though that would depend on either the data contained in the GMC feed and/org the type of markup the site uses (I don't expect them to make use of ProductGroup , right?)",
+                "Dylan Jones   9 days ago They are using AggregateOffer markup inside the Product markup. But they are only using lowPrice, highPrice, priceCurrency, itemCondition, and availability in the AggregateOffer. They have recently made some changes to their GMC feed to make it more focused, so that definitely could be one of the factors. They are not currently using ProductGroup.",
+                "Jarno van Driel   9 days ago Cool that means the price range gets triggered through markup that slips through the cracks of G's algorithms - happy accident... And we can exclude the rest of the markup triggering the 'site-links' because they don't make use of ProductGroup , also off the list. Which leaves us with the GMC feed and whether the products are grouped together via itemgroup_id. And if the latter isn't the case the only thing I can up with is that you've found yet another form of 'site-links', pieced together via links between pages - which still would be a cool find for sure. (edited) ",
+                "Dylan Jones   9 days ago Yeah. I think I'm down to breadcrumb schema and something with GMC as possibilities. Will update if I'm ever able to figure it out lol. 1"
+            ]
+        },
+        {
+            "message_text": "Kevin Eyre   1:27 AM Does anyone have recommendations on best way to upload Products to multiple GBP profiles in bulk?",
+            "replies": [
+                "There is no reply thread in this message"
+            ]
+        },
+        {
+            "message_text": "Charbel Raffoul   4:56 AM Does anyone have an example of a website that serves multi regions without sub domains or subfolders? So a .com that would service au, nz, us, uk etc regions ? Thank you 1 2 replies Last reply 1 day ago",
+            "replies": [
+                "Adam Humphreys   1 day ago Nothing comes to mind other than for something like that Id use this https://developers.google.com/search/blog/2013/04/x-default-hreflang-for-international-pages Google for Developers Introducing \"x-default hreflang\" for international landing pages  |  Google Search Central Blog  |  Google for Developers (66 kB) https://developers.google.com/search/blog/2013/04/x-default-hreflang-for-international-pages",
+                "Adam Humphreys   1 day ago The new x-default hreflang attribute value signals to our algorithms that this page doesnt target any specific language or locale and is the default page when no other page is better suited. For example, it would be the page our algorithms try to show French-speaking searchers worldwide or English-speaking searchers on google.ca. The same annotation applies for home pages that dynamically alter their contents based on a users perceived geolocation or the Accept-Language headers. The x-default hreflang value signals to our algorithms that such a page doesnt target a specific language or locale."
+            ]
+        },
+        {
+            "message_text": "Olly Torrance   6:27 PM Any Shopify experts here? How do you deal with not being able to created nested collections e.g. /collection/shirts/long-sleeve. Do you just work with the limitations or hack some kind of fix using tags? Thanks  (edited)  4 replies Last reply 3 days ago",
+            "replies": [
+                "Jess Joyce   3 days ago You work with the limitations. Or thats what Ive done. I make lots of collections lol + link em together. The plugins Ive seen (all paid!! sons of guns) add in query strings to filtering There may be better ones out there these days and I hope there are so maybe do a search for plugins, cause thats a huge opp IMO. 1",
+                "Olly Torrance   3 days ago okay thanks @Jess Joyce Sometimes it's better to accept it rather than hack something unstable together!",
+                "Jess Joyce   3 days ago TOTALLY",
+                "Alex Wilson   3 days ago Yeah, its just how it works. And many shopify sites rank very well, so its not something that is a killer."
+            ]
+        },
+        {
+            "message_text": "Mika Lepist   2:11 AM Ran across this just now. Anyone tried it on Shopify? https://www.letscooee.com/ letscooee.com Cooee | Convert more with AI Cooee analyses each visitor journey in realtime to understand where they are in the buying process to engage with them uniquely. (119 kB) https://www.letscooee.com/",
+            "replies": [
+                "There is no reply thread in this message"
+            ]
+        }
+    ]
+}
